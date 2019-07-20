@@ -6,7 +6,7 @@ interface IHeaderProps {
 
 const Header: React.FunctionComponent<IHeaderProps> = ({ title }) => (
   <header>
-    <h1 className="text-center">{title}</h1>
+    <h1 className="text-primary my-5">{title}</h1>
   </header>
 );
 
